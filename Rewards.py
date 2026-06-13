@@ -1,7 +1,6 @@
 import numpy as np
 
 from ENV.Collision_LH4500 import is_Collision
-from ENV.Collision_Self_LH4500 import is_Self_Collision
 
 ## 【末端距离奖励】：指数递减，越近奖励越小，越远奖励越大
 ## 参考《一种基于改进SAC算法的六轴机械臂路径规划》
