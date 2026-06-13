@@ -34,7 +34,7 @@ class mpParams:
         self.q_start = tools.deg_rad_trans(q_start_deg, 'deg2rad')
         self.q_target = tools.deg_rad_trans(q_target_deg, 'deg2rad')
 
-        self.num_step = 300                # 每局步数
+        self.num_step = 500                # 每局步数
         self.collision_penalty = -100.0    # 碰撞基础惩罚  -100
         self.success_reward = 100.0        # 成功奖励  100
         self.Thr_Connect = 200             # 最后连接阈值-位置
